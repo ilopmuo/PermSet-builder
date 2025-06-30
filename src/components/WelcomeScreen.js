@@ -68,7 +68,7 @@ const WelcomeScreen = ({ onNext }) => {
             Aplicación web gratuita para convertir perfiles de Salesforce a Permission Sets
           </p>
           <p className="text-sm text-blue-600 bg-blue-50 rounded-lg px-4 py-2 mt-4 inline-block">
-            🌐 100% en el navegador • Sin instalación • Sin subida de archivos
+            🌐 100% en el navegador • Sin instalación • Varios modos de conversión
           </p>
         </motion.div>
 
