@@ -1,0 +1,22 @@
+{
+  "MinimalProfile": "MinimalPermissionSet",
+  "ComplexProfile": "ComplexPermissionSet",
+  "ObjectOnlyProfile": "ObjectOnlyPermissionSet",
+  "UserPermsOnlyProfile": "UserPermsOnlyPermissionSet",
+  "EmptyProfile": "EmptyPermissionSet",
+  "SpecialChars_Profile": "SpecialCharsPermissionSet",
+  "DuplicatePerms": "DuplicatePermsPermissionSet",
+  "MalformedProfile": "MalformedPermissionSet",
+  "splitOverrides": {
+    "ComplexProfile_objectPermissions": "ComplexProfile_ObjectAccess",
+    "ComplexProfile_fieldPermissions": "ComplexProfile_FieldAccess",
+    "ComplexProfile_userPermissions": "ComplexProfile_UserPerms",
+    "ComplexProfile_classAccesses": "ComplexProfile_ClassAccess",
+    "ComplexProfile_applicationVisibilities": "ComplexProfile_AppVisibility",
+    "ComplexProfile_tabVisibilities": "ComplexProfile_TabVisibility",
+    "ComplexProfile_pageAccesses": "ComplexProfile_PageAccess",
+    "ComplexProfile_recordTypeVisibilities": "ComplexProfile_RecordTypeVisibility",
+    "ObjectOnlyProfile_objectPermissions": "ObjectOnly_ObjectAccess",
+    "UserPermsOnlyProfile_userPermissions": "UserPermsOnly_UserPerms"
+  }
+} 

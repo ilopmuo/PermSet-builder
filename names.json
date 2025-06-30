@@ -1,0 +1,10 @@
+{
+  "Admin": "AdminAccess",
+  "Sales_Manager": "SalesTeamPermissions",
+  "splitOverrides": {
+    "Admin_userPermissions": "AdminCorePermissions",
+    "Admin_objectPermissions": "AdminObjectAccess",
+    "Sales_Manager_userPermissions": "SalesUserPermissions",
+    "Sales_Manager_objectPermissions": "SalesObjectAccess"
+  }
+} 

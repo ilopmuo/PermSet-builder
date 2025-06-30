@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<PermissionSet xmlns="http://soap.sforce.com/2006/04/metadata">
+  <description>Permission set generado desde el perfil MalformedProfile</description>
+  <hasActivationRequired>false</hasActivationRequired>
+  <label>MalformedPermissionSet</label>
+  <objectPermissions>
+    <allowCreate>true</allowCreate>
+    <allowDelete>false</allowDelete>
+    <allowEdit>true</allowEdit>
+    <allowRead>true</allowRead>
+    <modifyAllRecords>false</modifyAllRecords>
+    <object/>
+    <viewAllRecords>true</viewAllRecords>
+  </objectPermissions>
+  <fieldPermissions>
+    <editable>true</editable>
+    <field>[object Object]</field>
+    <readable>false</readable>
+  </fieldPermissions>
+  <userPermissions>
+    <enabled>invalid_boolean_value</enabled>
+    <name>ViewSetup</name>
+  </userPermissions>
+</PermissionSet>

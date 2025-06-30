@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<PermissionSet xmlns="http://soap.sforce.com/2006/04/metadata">
+  <description>AppVisibility desde el perfil Admin</description>
+  <hasActivationRequired>false</hasActivationRequired>
+  <label>Admin_AppVisibility</label>
+  <applicationVisibilities>
+    <application>standard__Sales</application>
+    <default>true</default>
+    <visible>true</visible>
+  </applicationVisibilities>
+</PermissionSet>

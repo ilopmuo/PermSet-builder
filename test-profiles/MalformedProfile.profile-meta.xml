@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Profile xmlns="http://soap.sforce.com/2006/04/metadata">
+    <description>Perfil malformado para testing de errores</description>
+    <custom>true</custom>
+    
+    <!-- Object permission con campos faltantes -->
+    <objectPermissions>
+        <allowCreate>true</allowCreate>
+        <!-- allowDelete missing -->
+        <allowEdit>true</allowEdit>
+        <allowRead>true</allowRead>
+        <!-- object field missing -->
+        <viewAllRecords>true</viewAllRecords>
+    </objectPermissions>
+    
+    <!-- User permission con estructura incorrecta -->
+    <userPermissions>
+        <enabled>invalid_boolean_value</enabled>
+        <name>ViewSetup</name>
+    </userPermissions>
+    
+    <!-- Tag sin cerrar correctamente -->
+    <fieldPermissions>
+        <editable>true</editable>
+        <field>Account.Name
+        <readable>true</readable>
+    </fieldPermissions>
+</Profile> 

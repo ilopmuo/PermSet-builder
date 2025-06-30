@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<PermissionSet xmlns="http://soap.sforce.com/2006/04/metadata">
+  <description>AppVisibility desde el perfil ComplexProfile</description>
+  <hasActivationRequired>false</hasActivationRequired>
+  <label>ComplexProfile_AppVisibility</label>
+  <applicationVisibilities>
+    <application>standard__Sales</application>
+    <default>true</default>
+    <visible>true</visible>
+  </applicationVisibilities>
+  <applicationVisibilities>
+    <application>standard__Service</application>
+    <default>false</default>
+    <visible>true</visible>
+  </applicationVisibilities>
+  <applicationVisibilities>
+    <application>standard__Marketing</application>
+    <default>false</default>
+    <visible>false</visible>
+  </applicationVisibilities>
+</PermissionSet>

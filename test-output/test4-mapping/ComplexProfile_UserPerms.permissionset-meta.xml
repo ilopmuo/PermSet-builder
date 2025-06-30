@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<PermissionSet xmlns="http://soap.sforce.com/2006/04/metadata">
+  <description>UserPermissions desde el perfil ComplexProfile</description>
+  <hasActivationRequired>false</hasActivationRequired>
+  <label>ComplexProfile_UserPerms</label>
+  <userPermissions>
+    <enabled>true</enabled>
+    <name>ViewSetup</name>
+  </userPermissions>
+  <userPermissions>
+    <enabled>true</enabled>
+    <name>ModifyAllData</name>
+  </userPermissions>
+  <userPermissions>
+    <enabled>false</enabled>
+    <name>ViewAllData</name>
+  </userPermissions>
+  <userPermissions>
+    <enabled>true</enabled>
+    <name>ManageUsers</name>
+  </userPermissions>
+  <userPermissions>
+    <enabled>true</enabled>
+    <name>CreateWorkspaces</name>
+  </userPermissions>
+  <userPermissions>
+    <enabled>false</enabled>
+    <name>DeleteActivatedContract</name>
+  </userPermissions>
+</PermissionSet>

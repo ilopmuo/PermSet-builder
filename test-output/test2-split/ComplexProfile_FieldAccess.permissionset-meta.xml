@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<PermissionSet xmlns="http://soap.sforce.com/2006/04/metadata">
+  <description>FieldAccess desde el perfil ComplexProfile</description>
+  <hasActivationRequired>false</hasActivationRequired>
+  <label>ComplexProfile_FieldAccess</label>
+  <fieldPermissions>
+    <editable>true</editable>
+    <field>Account.Name</field>
+    <readable>true</readable>
+  </fieldPermissions>
+  <fieldPermissions>
+    <editable>false</editable>
+    <field>Account.Industry</field>
+    <readable>true</readable>
+  </fieldPermissions>
+  <fieldPermissions>
+    <editable>true</editable>
+    <field>Contact.Email</field>
+    <readable>true</readable>
+  </fieldPermissions>
+  <fieldPermissions>
+    <editable>true</editable>
+    <field>Contact.Phone</field>
+    <readable>true</readable>
+  </fieldPermissions>
+  <fieldPermissions>
+    <editable>false</editable>
+    <field>Opportunity.Amount</field>
+    <readable>true</readable>
+  </fieldPermissions>
+  <fieldPermissions>
+    <editable>true</editable>
+    <field>Case.Subject</field>
+    <readable>true</readable>
+  </fieldPermissions>
+</PermissionSet>

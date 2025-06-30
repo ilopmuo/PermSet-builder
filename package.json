@@ -1,0 +1,66 @@
+{
+  "name": "permset-builder",
+  "version": "1.0.0",
+  "description": "Herramienta para convertir perfiles en Permission Sets (Salesforce) - Desarrollada por Ignacio López Muñoyerro",
+  "main": "src/index.js",
+  "homepage": "./",
+  "author": "Ignacio López Muñoyerro",
+  "bin": {
+    "permset-builder": "./index.js"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject",
+    "cli": "node index.js"
+  },
+  "keywords": [
+    "salesforce",
+    "permissionset",
+    "profile",
+    "cli",
+    "xml",
+    "electron",
+    "desktop",
+    "ignacio-lopez-munoyerro"
+  ],
+  "license": "MIT",
+  "dependencies": {
+    "chalk": "^4.1.2",
+    "class-variance-authority": "^0.7.0",
+    "clsx": "^2.0.0",
+    "commander": "^11.1.0",
+    "fast-xml-parser": "^4.3.2",
+    "file-saver": "^2.0.5",
+    "framer-motion": "^10.16.4",
+    "jsforce": "^3.9.1",
+    "jszip": "^3.10.1",
+    "lucide-react": "^0.294.0",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "react-scripts": "5.0.1",
+    "tailwind-merge": "^2.0.0",
+    "xmlbuilder2": "^3.1.1"
+  },
+  "devDependencies": {
+    "@craco/craco": "^7.1.0",
+    "@types/node": "^20.8.10",
+    "autoprefixer": "^10.4.16",
+    "path-browserify": "^1.0.1",
+    "postcss": "^8.4.31",
+    "tailwindcss": "^3.3.5"
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  }
+}

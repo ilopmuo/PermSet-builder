@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<PermissionSet xmlns="http://soap.sforce.com/2006/04/metadata">
+  <description>UserPermissions desde el perfil MinimalProfile</description>
+  <hasActivationRequired>false</hasActivationRequired>
+  <label>MinimalPermissionSet_UserPermissions</label>
+  <userPermissions>
+    <enabled>true</enabled>
+    <name>ViewSetup</name>
+  </userPermissions>
+</PermissionSet>

@@ -1,0 +1,2 @@
+# Este archivo mantiene la carpeta permsets en el repositorio
+# Los archivos .permissionset-meta.xml generados serán ignorados por .gitignore 

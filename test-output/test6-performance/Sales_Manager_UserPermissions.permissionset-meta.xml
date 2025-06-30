@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<PermissionSet xmlns="http://soap.sforce.com/2006/04/metadata">
+  <description>UserPermissions desde el perfil Sales_Manager</description>
+  <hasActivationRequired>false</hasActivationRequired>
+  <label>Sales_Manager_UserPermissions</label>
+  <userPermissions>
+    <enabled>true</enabled>
+    <name>EditTask</name>
+  </userPermissions>
+  <userPermissions>
+    <enabled>true</enabled>
+    <name>DeleteTask</name>
+  </userPermissions>
+  <userPermissions>
+    <enabled>true</enabled>
+    <name>ViewPublicReports</name>
+  </userPermissions>
+</PermissionSet>
